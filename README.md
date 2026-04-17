@@ -1,8 +1,8 @@
-# 🛡️ Core Lab: Diagnostic & Hardening Toolkit
+Core Lab: Diagnostic & Hardening Toolkit
 
 Welcome to the official script repository for [CoreLab.tech](https://corelab.tech). This toolkit is designed for homelabbers, self-hosters, and cybersecurity enthusiasts who want to move from "default settings" to a hardened, optimized infrastructure.
 
-## 🛠️ Included Tools
+Included Tools
 
 ### 1. Universal Network Auditor (`audit.sh` / `audit.ps1`)
 A cross-platform diagnostic tool to visualize your network topology.
@@ -23,7 +23,7 @@ A PowerShell equivalent for Windows-based homelab hosts.
 
 ---
 
-## 🚀 One-Liner Execution
+One-Liner Execution
 
 You can run these tools directly without cloning the repository.
 
@@ -41,11 +41,10 @@ irm [https://corelab.tech/audit.ps1](https://corelab.tech/audit.ps1) | iex
 ```bash
 curl -sL [https://corelab.tech/harden.sh](https://corelab.tech/harden.sh) | bash
 
-⚖️ License & Attribution
+License & Attribution
 These tools are released under the MIT License. You are free to use, modify, and distribute them. Attribution back to CoreLab.tech is appreciated.
 
-🤝 Community
+Community
 If you find a bug or have a feature request, please open an Issue or submit a Pull Request.
 
-Stay curious. Stay secure.
-�- Joe, Core Lab
+Stay curious. Stay secure. - Joe, Core Lab
