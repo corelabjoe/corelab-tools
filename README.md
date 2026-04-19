@@ -25,22 +25,22 @@ A PowerShell equivalent for Windows-based homelab hosts.
 
 One-Liner Execution
 
-You can run these tools directly without cloning the repository.
+You can run these tools directly without cloning the repository!
 
 ### Network Auditor
 **Linux/macOS:**
 ```bash
 curl -sL [https://corelab.tech/audit.sh](https://corelab.tech/audit.sh) | bash
-
+```
 **In Windows PowerShell:**
 ```PowerShell
 irm [https://corelab.tech/audit.ps1](https://corelab.tech/audit.ps1) | iex
-
+```
 ### Debian Hardening
 **Linux/macOS:**
 ```bash
 curl -sL [https://corelab.tech/harden.sh](https://corelab.tech/harden.sh) | bash
-
+```
 License & Attribution
 These tools are released under the MIT License. You are free to use, modify, and distribute them. Attribution back to CoreLab.tech is appreciated.
 
