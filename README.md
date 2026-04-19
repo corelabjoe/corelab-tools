@@ -23,9 +23,8 @@ A PowerShell equivalent for Windows-based homelab hosts.
 
 ---
 
-One-Liner Execution
-
-You can run these tools directly without cloning the repository!
+One-Liner Execution - You can run these tools directly without cloning the repository!
+You may have to install curl first, apt install curl -y
 
 ### Network Auditor
 **Linux/macOS:**
