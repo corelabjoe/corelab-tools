@@ -29,17 +29,24 @@ You may have to install curl first, apt install curl -y
 ### Network Auditor
 **Linux/macOS:**
 ```bash
-curl -sL [https://corelab.tech/audit.sh](https://corelab.tech/audit.sh) | bash
+curl -sL https://raw.githubusercontent.com/corelabjoe/corelab-tools/main/diagnostics/audit.sh | bash
 ```
 **In Windows PowerShell:**
 ```PowerShell
-irm [https://corelab.tech/audit.ps1](https://corelab.tech/audit.ps1) | iex
+irm https://raw.githubusercontent.com/corelabjoe/corelab-tools/main/diagnostics/audit.ps1 | iex
 ```
 ### Debian Hardening
 **Linux/macOS:**
 ```bash
-curl -sL [https://corelab.tech/harden.sh](https://corelab.tech/harden.sh) | bash
+curl -sL https://raw.githubusercontent.com/corelabjoe/corelab-tools/main/hardening/harden.sh | bash
 ```
+### Windows PowerShell
+```PowerShell
+irm https://raw.githubusercontent.com/corelabjoe/corelab-tools/main/hardening/harden.ps1 | iex
+```
+
+---
+
 License & Attribution
 These tools are released under the MIT License. You are free to use, modify, and distribute them. Attribution back to CoreLab.tech is appreciated.
 
